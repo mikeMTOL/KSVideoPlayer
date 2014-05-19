@@ -5,7 +5,9 @@ Using iOS AVPlayer on a layer full example
 
 Tried to simulate Youtube's official video display.
 
+<img alt="ScreenShot Portrait" src="https://github.com/mmusallam/KSVideoPlayer/blob/master/Demo/screenshot1.png?raw=true" width="320px"/>
 
+<img alt="ScreenShot Landscape" src="https://github.com/mmusallam/KSVideoPlayer/blob/master/Demo/screenshot2.png?raw=true" height="320px"/>
 
 How To Get Started
 ------------------
