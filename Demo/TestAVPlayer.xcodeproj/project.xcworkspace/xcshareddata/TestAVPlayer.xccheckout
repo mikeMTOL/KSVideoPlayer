@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9930267E-F271-47B2-B2CB-740266C1DC83</string>
+	<string>3041F33F-E786-4FA9-B348-4F495F74645B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TestAVPlayer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E20C84DE-3AF5-4D12-8DB8-B7B30105F04B</key>
+		<key>BEDE14B5-D952-4503-A96A-8C7878CEC741</key>
 		<string>https://github.com/mmusallam/KSVideoPlayer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Demo/TestAVPlayer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E20C84DE-3AF5-4D12-8DB8-B7B30105F04B</key>
+		<key>BEDE14B5-D952-4503-A96A-8C7878CEC741</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E20C84DE-3AF5-4D12-8DB8-B7B30105F04B</string>
+	<string>BEDE14B5-D952-4503-A96A-8C7878CEC741</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E20C84DE-3AF5-4D12-8DB8-B7B30105F04B</string>
+			<string>BEDE14B5-D952-4503-A96A-8C7878CEC741</string>
 			<key>IDESourceControlWCCName</key>
 			<string>KSVideoPlayer</string>
 		</dict>

@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "KSVideoPlayerView.h"
-#import <KeepLayout.h>
 
 @interface ViewController ()
 
