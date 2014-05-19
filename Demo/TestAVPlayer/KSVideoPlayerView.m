@@ -1,9 +1,9 @@
 //
-//  PlayerView.m
-//  X4 Video Player
+//  ViewController.m
+//  TestAVPlayer
 //
-//  Created by Hemkaran Raghav on 10/4/13.
-//  Copyright (c) 2013 Mahesh Gera. All rights reserved.
+//  Created by Mike on 2014-05-07.
+//  Copyright (c) 2014 Mike. All rights reserved.
 //
 
 #import "KSVideoPlayerView.h"
