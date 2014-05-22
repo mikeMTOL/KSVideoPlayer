@@ -74,22 +74,27 @@
     // current time label
     self.playBackTime.keepLeftInset.equal = KeepRequired(5);
     [self.playBackTime keepVerticallyCentered];
-
+    
     
     // progress bar
     self.progressBar.keepLeftOffsetTo(self.playBackTime).equal = KeepRequired(5);
     self.progressBar.keepBottomInset.equal = KeepRequired(0);
-    [self.progressBar keepHorizontallyCentered];
     [self.progressBar keepVerticallyCentered];
     
     // total time label
     self.playBackTotalTime.keepLeftOffsetTo(self.progressBar).equal = KeepRequired(5);
     [self.playBackTotalTime keepVerticallyCentered];
-
+    
     // zoom button
-    self.zoomButton.keepLeftOffsetTo(self.playBackTotalTime).equal = KeepRequired(5);
     self.zoomButton.keepRightInset.equal = KeepRequired(5);
     [self.zoomButton keepVerticallyCentered];
+    
+    // airplay button
+    self.airplayButton.keepRightOffsetTo(self.zoomButton).equal = KeepRequired(self.airplayButton.frame.size.width);
+    self.airplayButton.keepLeftOffsetTo(self.playBackTotalTime).equal = KeepRequired(5);
+    self.airplayButton.keepBottomInset.equal = KeepRequired(6);
+    [self.airplayButton keepVerticallyCentered];
+    
 }
 
 -(void)initializePlayer:(CGRect)frame
@@ -165,6 +170,12 @@
     [self.playBackTotalTime setTextColor:[UIColor whiteColor]];
     self.playBackTotalTime.font = [UIFont systemFontOfSize:12*frameWidth/240];
     [self.playerHudBottom addSubview:self.playBackTotalTime];
+    
+    // Airplay button
+    self.airplayButton = [ [MPVolumeView alloc] init] ;
+    [self.airplayButton setShowsVolumeSlider:NO];
+    [self.airplayButton sizeToFit];
+    [self.playerHudBottom addSubview:self.airplayButton];
     
     //zoom button
     UIImage *image = [UIImage imageNamed:@"avplayer.bundle/zoomin"];

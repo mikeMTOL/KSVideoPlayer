@@ -30,6 +30,7 @@
 @property (retain, nonatomic) UIButton *playPauseButton;
 @property (retain, nonatomic) UIButton *volumeButton;
 @property (retain, nonatomic) UIButton *zoomButton;
+@property (retain, nonatomic) MPVolumeView *airplayButton;
 
 @property (retain, nonatomic) UISlider *progressBar;
 @property (retain, nonatomic) UISlider *volumeBar;
