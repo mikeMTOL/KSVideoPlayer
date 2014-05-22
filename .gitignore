@@ -1,2 +1,6 @@
 
 *.lock
+*.xcworkspace
+Demo/Pods/*.*
+Pods*.*
+
