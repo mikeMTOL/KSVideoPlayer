@@ -18,25 +18,11 @@
 		4C99E412191A9FAF0036778C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C99E410191A9FAF0036778C /* Main.storyboard */; };
 		4C99E415191A9FAF0036778C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C99E414191A9FAF0036778C /* ViewController.m */; };
 		4C99E417191A9FAF0036778C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C99E416191A9FAF0036778C /* Images.xcassets */; };
-		4C99E41E191A9FAF0036778C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C99E41D191A9FAF0036778C /* XCTest.framework */; };
-		4C99E41F191A9FAF0036778C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C99E3FE191A9FAF0036778C /* Foundation.framework */; };
-		4C99E420191A9FAF0036778C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C99E402191A9FAF0036778C /* UIKit.framework */; };
-		4C99E428191A9FAF0036778C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C99E426191A9FAF0036778C /* InfoPlist.strings */; };
-		4C99E42A191A9FAF0036778C /* TestAVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C99E429191A9FAF0036778C /* TestAVPlayerTests.m */; };
 		CC92C1B0D78544228DB746F1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 413B2B3A3C7C4BE8B33D4987 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4C99E421191A9FAF0036778C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C99E3F3191A9FAF0036778C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C99E3FA191A9FAF0036778C;
-			remoteInfo = TestAVPlayer;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		2261A9D7DE78B64079BBAA2B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		413B2B3A3C7C4BE8B33D4987 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0ADF66191C24B4006DB35F /* avplayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = avplayer.bundle; sourceTree = "<group>"; };
 		4C0ADF67191C24B4006DB35F /* KSVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSVideoPlayerView.h; sourceTree = "<group>"; };
@@ -55,12 +41,11 @@
 		4C99E413191A9FAF0036778C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4C99E414191A9FAF0036778C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C99E416191A9FAF0036778C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4C99E41C191A9FAF0036778C /* TestAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C99E41D191A9FAF0036778C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4C99E425191A9FAF0036778C /* TestAVPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAVPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		4C99E427191A9FAF0036778C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C99E429191A9FAF0036778C /* TestAVPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAVPlayerTests.m; sourceTree = "<group>"; };
-		9937EE0BE2AF4616957A896B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EA7B4D994F171C209B0A0E05 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,19 +60,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C99E419191A9FAF0036778C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C99E41E191A9FAF0036778C /* XCTest.framework in Frameworks */,
-				4C99E420191A9FAF0036778C /* UIKit.framework in Frameworks */,
-				4C99E41F191A9FAF0036778C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2499462192D101549CB8C7CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA7B4D994F171C209B0A0E05 /* Pods.debug.xcconfig */,
+				2261A9D7DE78B64079BBAA2B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4C99E3F2191A9FAF0036778C = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +79,7 @@
 				4C99E423191A9FAF0036778C /* TestAVPlayerTests */,
 				4C99E3FD191A9FAF0036778C /* Frameworks */,
 				4C99E3FC191A9FAF0036778C /* Products */,
-				9937EE0BE2AF4616957A896B /* Pods.xcconfig */,
+				2499462192D101549CB8C7CB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				4C99E3FB191A9FAF0036778C /* TestAVPlayer.app */,
-				4C99E41C191A9FAF0036778C /* TestAVPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,24 +171,6 @@
 			productReference = 4C99E3FB191A9FAF0036778C /* TestAVPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4C99E41B191A9FAF0036778C /* TestAVPlayerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C99E430191A9FAF0036778C /* Build configuration list for PBXNativeTarget "TestAVPlayerTests" */;
-			buildPhases = (
-				4C99E418191A9FAF0036778C /* Sources */,
-				4C99E419191A9FAF0036778C /* Frameworks */,
-				4C99E41A191A9FAF0036778C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C99E422191A9FAF0036778C /* PBXTargetDependency */,
-			);
-			name = TestAVPlayerTests;
-			productName = TestAVPlayerTests;
-			productReference = 4C99E41C191A9FAF0036778C /* TestAVPlayerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,11 +179,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Mike;
-				TargetAttributes = {
-					4C99E41B191A9FAF0036778C = {
-						TestTargetID = 4C99E3FA191A9FAF0036778C;
-					};
-				};
 			};
 			buildConfigurationList = 4C99E3F6191A9FAF0036778C /* Build configuration list for PBXProject "TestAVPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -234,7 +194,6 @@
 			projectRoot = "";
 			targets = (
 				4C99E3FA191A9FAF0036778C /* TestAVPlayer */,
-				4C99E41B191A9FAF0036778C /* TestAVPlayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,14 +207,6 @@
 				4C99E409191A9FAF0036778C /* InfoPlist.strings in Resources */,
 				4C99E412191A9FAF0036778C /* Main.storyboard in Resources */,
 				4C0ADF69191C24B4006DB35F /* avplayer.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C99E41A191A9FAF0036778C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C99E428191A9FAF0036778C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +225,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C282F5C3A4224646ACCC8F13 /* Check Pods Manifest.lock */ = {
@@ -306,23 +257,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C99E418191A9FAF0036778C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C99E42A191A9FAF0036778C /* TestAVPlayerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4C99E422191A9FAF0036778C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4C99E3FA191A9FAF0036778C /* TestAVPlayer */;
-			targetProxy = 4C99E421191A9FAF0036778C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C99E407191A9FAF0036778C /* InfoPlist.strings */ = {
@@ -424,7 +359,7 @@
 		};
 		4C99E42E191A9FAF0036778C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9937EE0BE2AF4616957A896B /* Pods.xcconfig */;
+			baseConfigurationReference = EA7B4D994F171C209B0A0E05 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,7 +373,7 @@
 		};
 		4C99E42F191A9FAF0036778C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9937EE0BE2AF4616957A896B /* Pods.xcconfig */;
+			baseConfigurationReference = 2261A9D7DE78B64079BBAA2B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -447,46 +382,6 @@
 				INFOPLIST_FILE = "TestAVPlayer/TestAVPlayer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		4C99E431191A9FAF0036778C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestAVPlayer.app/TestAVPlayer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestAVPlayer/TestAVPlayer-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TestAVPlayerTests/TestAVPlayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4C99E432191A9FAF0036778C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestAVPlayer.app/TestAVPlayer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestAVPlayer/TestAVPlayer-Prefix.pch";
-				INFOPLIST_FILE = "TestAVPlayerTests/TestAVPlayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -507,15 +402,6 @@
 			buildConfigurations = (
 				4C99E42E191A9FAF0036778C /* Debug */,
 				4C99E42F191A9FAF0036778C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4C99E430191A9FAF0036778C /* Build configuration list for PBXNativeTarget "TestAVPlayerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C99E431191A9FAF0036778C /* Debug */,
-				4C99E432191A9FAF0036778C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
